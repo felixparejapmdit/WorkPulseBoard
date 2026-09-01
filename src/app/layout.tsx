@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "WorkPulse KDS | Smart Central Operations Dashboard & Staff Work Orders",
-  description: "Real-time kitchen-display style command center for operations, work orders, staff assignments, and SLA monitoring.",
+  title: "WorkPulse | Team Operations Dashboard & Staff Work Orders",
+  description: "Real-time team operations dashboard, work orders, crew assignments, and SLA monitoring.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
